@@ -1,5 +1,5 @@
-@use "colors";
-@use "animation";
+@import "./colors";
+@import "./animation";
 
 *,
 *::before,
@@ -116,7 +116,7 @@ header {
 		left: 50%;
 		bottom: 20px;
 		font-size: 30px;
-		color: red;
+		color: $white;
 	}
 }
 
@@ -136,7 +136,7 @@ header {
 	}
 
 	.aboutus-hover {
-		transition: color 0.3s;
+		// transition: color 0.3s;
 	}
 
 	.aboutus-hover:hover {
@@ -320,9 +320,9 @@ header {
 	background-size: cover;
 	background-attachment: fixed;
 	z-index: 0;
-	
-	h2{
-		color: rgb(255, 255, 255);
+
+	h2 {
+		color: $white;
 	}
 
 	.contact-shadow {
