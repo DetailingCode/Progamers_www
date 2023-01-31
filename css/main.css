@@ -272,6 +272,10 @@ header .fa-chevron-down {
   background-attachment: fixed;
   z-index: 0;
 }
+
+.contact h2{
+  color: white;
+}
 .contact .contact-shadow {
   position: absolute;
   background-color: rgba(0, 9, 27, 0.8);
